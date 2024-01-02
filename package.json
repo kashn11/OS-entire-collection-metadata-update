@@ -1,0 +1,31 @@
+{
+  "name": "os-entire-collection-metadata-update",
+  "version": "1.0.0",
+  "description": "Node.js script to update metadata of entire collection on opensea",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kashn11/OS-entire-collection-metadata-update.git"
+  },
+  "keywords": [
+    "opensea",
+    "metadata update whole collection"
+  ],
+  "author": "kashan ilyas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kashn11/OS-entire-collection-metadata-update/issues"
+  },
+  "homepage": "https://github.com/kashn11/OS-entire-collection-metadata-update#readme",
+  "dependencies": {
+    "api": "^6.1.1",
+    "dotenv": "^16.3.1",
+    "ethers": "^5.4.7",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2"
+  }
+}
